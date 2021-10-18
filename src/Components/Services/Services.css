@@ -5,6 +5,7 @@
     display: inline-block;
     position: relative;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 .sec-title h3:after {
     position: absolute;

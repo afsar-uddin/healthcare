@@ -59,13 +59,13 @@
         },
         {
             "id": 2,
-            "speech": "If I hadn't gone to Best Doctors, I could still be waiting for a diagnosis right now.... Now I know what's going on and I have a name for it. Best Doctors really saved me.",
+            "speech": "If I hadn't gone to Best Doctors, I could still be waiting for a diagnosis right now. Now I know what's going on",
             "cover": "https://s3.amazonaws.com/images.teladoc.com/www/2019/landing-pages/bdstart/testimonial-pic-zara.jpg",
             "name": "Zara, Best Doctors member"
         },
         {
             "id": 3,
-            "speech": "Their goal was my best care. I feel like Best Doctors helped save my life.",
+            "speech": "Their goal was my best care. I feel like Best Doctors helped save lives. Best wishes for South CTG Healthcare",
             "cover": "https://s3.amazonaws.com/images.teladoc.com/www/2019/landing-pages/bdstart/testimonial-pic-michael.jpg",
             "name": "Michael, Best Doctors member"
         }
