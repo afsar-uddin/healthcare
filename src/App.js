@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
+import LoginRegister from './Components/LoginRegister/LoginRegister'
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
             <Home></Home>
           </Route>
 
-          {/* <Route></Route> */}
+          <Route path="/login-register">
+            <LoginRegister></LoginRegister>
+          </Route>
 
           <Route path="*">
             <NotFound></NotFound>
