@@ -6,29 +6,32 @@ import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
 import LoginRegister from './Components/LoginRegister/LoginRegister'
+import AuthProvider from './context/AuthProvider';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
 
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
 
-          <Route path="/login-register">
-            <LoginRegister></LoginRegister>
-          </Route>
+            <Route path="/login-register">
+              <LoginRegister></LoginRegister>
+            </Route>
 
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
 
-        </Switch>
-        <Footer></Footer>
-      </Router>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

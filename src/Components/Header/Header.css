@@ -1,7 +1,8 @@
 .ctg-navbar.navbar {
     background-color: #005a97;
 }
-.ctg-nav a {
+.ctg-nav a,
+.ctg-nav  button {
     text-decoration: none;
     color: #fff;
     margin-left: 10px;
@@ -10,10 +11,21 @@
     background-color: #004d81;
     border-radius: 5px;
 }
+
 .ctg-nav a:hover,
-.ctg-nav a.active {
+.ctg-nav a.active,
+.ctg-nav  button {
     background-color: #0b75bd;
+}
+.ctg-nav  button {
+    border: none;
 }
 .ctg-navbar.navbar-expand-lg .navbar-collapse {
     justify-content: end;
+}
+span.displayname {
+    color: #fff;
+    font-weight: 500;
+    margin: 0 10px;
+    line-height: 37px;
 }

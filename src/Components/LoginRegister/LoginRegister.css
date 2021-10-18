@@ -11,10 +11,11 @@
     padding: 10px;
     outline: none;
 }
-.login-register form {
-    text-align: center;
+.login-register form input:focus-within {
+    border-color: #0b75bd;
 }
-.login-register form button {
+.login-register form button,
+.direct-login div button {
     border: 1px solid #ddd;
     font-size: 18px;
     font-weight: 500;
@@ -22,6 +23,17 @@
     padding: 10px 40px;
     border-radius: 5px;
     margin-bottom: 30px;
+    width: 100%;
+    background-color: #0b75bd;
+    color: #fff;
+}
+.login-register button:hover,
+.direct-login div button:hover {
+    background-color: #004d81;
+}
+.direct-login div button {
+    width: auto;
+    margin: 5px;
 }
 .login-register h2 {
     text-transform: uppercase;
@@ -29,4 +41,23 @@
     margin: 0;
     display: block;
     padding: 30px 15px;
+}
+.direct-login div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.check input[type="checkbox"] {
+    width: auto;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 0;
 }
