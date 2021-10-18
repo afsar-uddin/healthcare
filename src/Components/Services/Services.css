@@ -24,7 +24,7 @@
 .single-service {
     position: relative;
 }
-.single-service h3 {
+.single-service div {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -37,6 +37,11 @@
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 700;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
 }
 .healthservices .card a {
     text-align: center;
@@ -45,10 +50,23 @@
     padding: 14px 0;
     color: #313131;
 }
-.single-service:hover h3 {
+.single-service .card:hover div h3 {
     opacity: 0;
+}
+.single-service div p {
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 0;
+    overflow: hidden;
+    margin: 0;
 }
 .healthservices .card:hover a {
     background-color: #005a97;
     color: #fff;
+}
+.healthservices .card:hover p {
+    opacity: 1;
+} 
+.healthservices .card:hover div {
+    height: 100%;
 }
