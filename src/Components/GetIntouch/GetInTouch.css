@@ -1,0 +1,37 @@
+.getintouch {
+    position: relative;
+}
+.getintouch img {
+    width: 100%;
+}
+.getintouch div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    z-index: 1;
+}
+
+.getintouch div h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.getintouch div p {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.getintouch:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}

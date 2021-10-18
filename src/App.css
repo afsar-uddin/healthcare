@@ -11,3 +11,15 @@ body, a, h1, h2, h3, h4, p, span {
 a {
     text-decoration: none !important;
 }
+.link-btn {
+    background-color: #0b75bd;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.link-btn:hover {
+    background-color: #004d81;
+    color: #fff;
+}

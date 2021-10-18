@@ -73,7 +73,9 @@
     "getInTouch": [
         {
             "id": 1,
-            "title": "Get in touch"
+            "title": "Get in touch",
+            "subTitle": "We are always ready to help your",
+            "cover": "https://i.ibb.co/jGmmV2M/New-Project.png"
         }
     ]
 }
