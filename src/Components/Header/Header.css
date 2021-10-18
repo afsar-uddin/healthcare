@@ -25,7 +25,10 @@
 }
 span.displayname {
     color: #fff;
-    font-weight: 500;
     margin: 0 10px;
     line-height: 37px;
+}
+span.displayname span {
+    color: #FC9924;
+    font-weight: 500;
 }

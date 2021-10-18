@@ -7,6 +7,8 @@ import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
 import LoginRegister from './Components/LoginRegister/LoginRegister'
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import ServiceDetail from './Components/ServiceDetail/ServiceDetail';
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
             <Route path="/login-register">
               <LoginRegister></LoginRegister>
             </Route>
+
+            <PrivateRoute path="/service/:id">
+              <ServiceDetail></ServiceDetail>
+            </PrivateRoute>
 
             <Route path="*">
               <NotFound></NotFound>
