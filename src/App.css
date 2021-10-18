@@ -8,3 +8,6 @@ body, a, h1, h2, h3, h4, p, span {
 * {
     transition: 0.4s all;
 }
+a {
+    text-decoration: none !important;
+}

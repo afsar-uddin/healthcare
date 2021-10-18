@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+.ctg-banner {
+    margin-bottom: 140px;
+}
 .ctg-banner .col {
     position: relative;
 

@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -13,6 +14,12 @@ function App() {
 
           <Route exact path="/">
             <Home></Home>
+          </Route>
+
+          {/* <Route></Route> */}
+
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
 
         </Switch>

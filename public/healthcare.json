@@ -9,42 +9,42 @@
     "services": [
         {
             "id": 1,
-            "title": "Audiology Department",
+            "title": "Audiology",
             "shortDsc": "Otoscopy, Audiometry, Microsuction are the main",
             "details": "Our audiology team is here to help you manage hearing or balance difficulties, with or without the use of assistive listening devices such as hearing aids. We also investigate the causes of hearing loss and balance problems in support of the ear, nose and throat (ENT) department.",
             "cover": "https://emedia1.nhs.wales/ABMUhb/cache/file/B31F6690-D09F-4C9D-B442C010558D6393_carouselimage.jpg"
         },
         {
             "id": 2,
-            "title": "CARDIOLOGY DEPARTMENT",
+            "title": "CARDIOLOGY",
             "shortDsc": "Echocardiography,Exercise Tolerance Test,ABPM",
             "details": "The Cardiology Department has gained reputation for its dynamic and innovation in the diagnosis, investigation and treatment of patients with all forms of heart diseases, both generally encountered and complex cases. Echocardiography is a painless test that uses sound waves to create moving pictures of your heart. The pictures show the size and shape of your heart. They also show how well your heart's chambers and valves are working. An exercise tolerance test (ETT) - also known as an exercise electrocardiogram (ECG) - can help to assess the severity of coronary heart disease. In this condition there is narrowing of the blood vessels supplying the heart.",
             "cover": "https://www.fortishealthcare.com/speciality_banner/mobile/Non-Invasive-Cardiology.jpg"
         },
         {
             "id": 3,
-            "title": "GASTROENTEROLOGY DEPARTMENT",
+            "title": "GASTROENTEROLOGY",
             "shortDsc": "Video Endoscopy,Video Colonoscopy,Video Sigmoidoscopy",
             "details": "Endoscopy is a broad term used to describe the inspection of the inside of the body using a flexible or rigid instrument called an endoscope, with a camera and light at one end and a viewing monitor or eyepiece at the other. The endoscope is usually introduced through a natural opening, such as the mouth or anus. Images of the inside of the patient’s body can be seen on a screen; the whole endoscopy is recorded so that doctors can check it again. An endoscopy is a non-invasive medical procedure used for investigation or diagnosis, biopsies and foreign object retrieval, without the need for surgery. Using special tools during endoscopy also allows the doctor to treat certain problems in the patient’s organ system.",
             "cover": "https://www.rhazesglobal.com/Frontend/Uploads/procedures/6c5c4397-0ac8-4969-b9c7-9ad41cba7860.jpg"
         },
         {
             "id": 4,
-            "title": "Colon and Rectal Department",
+            "title": "Colon and Rectal",
             "shortDsc": "urology and other specialties",
             "details": "Surgeons in the Division of Colon and Rectal Surgery at Mayo Clinic offer the latest in diagnosis and treatment of disorders of the colon, rectum and anus. More than a dozen surgeons at Mayo Clinic campuses in Arizona, Florida and Minnesota work closely with colleagues in gastroenterology, oncology, radiation oncology, urology and other specialties to ensure that you receive comprehensive, innovative and supportive care.",
             "cover": "https://www.kamcolorectal.com/images/image011.jpg"
         },
         {
             "id": 5,
-            "title": "Neurology Department",
+            "title": "Neurology",
             "shortDsc": "description",
             "details": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions.A doctor who specializes in neurology is called a neurologist. The neurologist treats disorders that affect the brain, spinal cord, and nerves, such as",
             "cover": "https://www.thecenteroregon.com/wp-content/uploads/2017/09/neurosurgeon-neurologist.jpg"
         },
         {
             "id": 6,
-            "title": "Respiratory Department",
+            "title": "Respiratory",
             "shortDsc": "Our clinical services are provided by experienced",
             "details": "Department of Respiratory Medicine of Evercare Hospital Dhaka offers comprehensive diagnosis, treatment and continuing care for patients with variety of conditions of the lungs and respiratory tract. Our clinical services are provided by experienced Respiratory Medicine Consultant and backed by state-of-the-art technology. The department performs investigations like pulmonary function tests (PFT) and bronchoscopy, and is well supported in terms of imaging modalities by Department of Diagnostic & Interventional Radiology. The Department provides consultation services in level-2 (OPD) through highly qualified and experienced Respiratory Medicine Consultant, who carefully evaluates each patient. After diagnosing patient’s condition, our Consultant discusses available treatment options and recommends the most effective treatment. ",
             "cover": "https://www.farukmedicalcity.com/wp-content/uploads/2018/04/Chest-and-Respiratory-Diseases-1024x427.jpg"
