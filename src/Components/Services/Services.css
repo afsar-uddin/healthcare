@@ -1,3 +1,19 @@
+
+.sec-title h3 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
+}
+.sec-title h3:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    width: 47%;
+    height: 3px;
+    background-color: #005a97;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
 .healthservices .card img {
     height: 250px;
     width: 100%;
