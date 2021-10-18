@@ -33,3 +33,18 @@
 .social-nav a:hover {
     background-color: #004d81;
 }
+.notfound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 202px);
+    text-align: center;
+}
+.notfound a {
+    background-color: #0b75bd;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}

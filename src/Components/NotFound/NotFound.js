@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <Container>
+        <Container className="notfound">
             <Row>
                 <Col>
                     <h2>404 Not foound </h2>
