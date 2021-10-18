@@ -14,7 +14,7 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ctg-nav">
                             <NavLink exact activeClassName="active" to="/">Home</NavLink>
-                            <NavLink exact activeClassName="active" to="/services">Services</NavLink>
+                            <NavLink exact activeClassName="active" to="/appointment-info">Appointments</NavLink>
                             <NavLink exact activeClassName="active" to="/Contact">Contact</NavLink>
                             <NavLink exact activeClassName="active" to="/login-register">Login / Register</NavLink>
                         </Nav>
