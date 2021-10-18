@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer';
 import LoginRegister from './Components/LoginRegister/LoginRegister'
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
-import ServiceDetail from './Components/ServiceDetail/ServiceDetail';
+import ServiceDetail from './Components/Services/ServiceDetail';
 
 function App() {
   return (
