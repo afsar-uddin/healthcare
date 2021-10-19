@@ -7,7 +7,6 @@ const Appointment = () => {
     const { isLogin } = useAuth();
     return (
         <Container>
-            {isLogin && "Login or Register first to see the appointment info"}
             <Row>
                 <Col>
                     <Card className="appointment">
