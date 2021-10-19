@@ -59,7 +59,7 @@ const useFirebase = () => {
         e.preventDefault();
         if (password.length < 6) {
             setError("Password must be at least 6 character");
-            return
+            return;
         } else {
             setError()
         }
@@ -75,7 +75,6 @@ const useFirebase = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user)
                 setDisplayName();
                 setVerifyEmail();
                 window.location = '/'
@@ -90,14 +89,11 @@ const useFirebase = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user);
                 window.location = '/'
             })
             .catch(error => {
                 setError('Wrong email or password')
             })
-
-
     }
 
 

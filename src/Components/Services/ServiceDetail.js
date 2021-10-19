@@ -9,7 +9,6 @@ const ServiceDetail = () => {
     const [serviceDetail, setServiceDetail] = useState([]);
     const [singleService, setSingleService] = useState([]);
     const { isLoading } = useAuth();
-    console.log(singleService)
 
     // fetch services data
     useEffect(() => {

@@ -106,3 +106,12 @@
 .detail-col a {
     color: #fff;
 }
+@media screen and (max-width: 520px) {
+    .detail-col {
+        display: block;
+        text-align: center;
+    }
+    .service-detail-header h2 {
+        margin-bottom: 15px;
+    }
+}

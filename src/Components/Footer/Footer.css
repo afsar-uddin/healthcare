@@ -28,7 +28,7 @@
     text-align: center;
     line-height: 35px;
     border-radius: 50%;
-    margin-left: 15px;
+    margin: 5px;
 }
 .social-nav a:hover {
     background-color: #004d81;
@@ -40,5 +40,16 @@
 @media screen and (max-width: 992px) {
     .footer p span {
         display: block;
+    }
+}
+@media screen and (max-width: 520px) {
+    .footer .row {
+        display: block;
+    }
+    .footer .row .col {
+        text-align: center;
+    }
+    .footer .row .col p {
+        margin-bottom: 15px;
     }
 }
