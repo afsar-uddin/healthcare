@@ -6,18 +6,18 @@ This project based on React JS, all the functionality easy to use. For the exter
 
 ### Table of content
 ### Home
-    * Header with navigation
-    * Banner and banner caption
-    * Services with sweet animation functioanal functional.
-    * Services (image, title, shortdescription on hover, 
+  * Header with navigation
+  * Banner and banner caption
+  * Services with sweet animation functioanal functional.
+  * Services (image, title, shortdescription on hover, 
       detail description, viewmore button to reach the
       service detail page and it private route implemented, back to home button)
-    * Doctors quotes implemented slider
-    * Get in touch with contact button to link with contact page
-    * Simple footer with social media icon. 
+  * Doctors quotes implemented slider
+  * Get in touch with contact button to link with contact page
+  * Simple footer with social media icon. 
 
 ### Service Detail
-    * Service Detail page (title, image, short description and detail)
+  * Service Detail page (title, image, short description and detail)
 
 ### Appointment (private route)
  * Appointment information
