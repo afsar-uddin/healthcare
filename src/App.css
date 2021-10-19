@@ -39,3 +39,9 @@ a {
     left: 45%;
     top: 40%;
 }
+.error {
+    margin-bottom: 15px;
+    display: block;
+    color: red;
+    font-weight: 600;
+}

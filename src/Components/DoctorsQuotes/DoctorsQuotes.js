@@ -10,7 +10,7 @@ const DoctorsQuotes = () => {
             .then(data => setQuotes(data.quotes));
     }, [])
     return (
-        <div class="doctors-quotes">
+        <div className="doctors-quotes">
             <Container>
                 <Row>
                     <Col className="sec-title text-center">
