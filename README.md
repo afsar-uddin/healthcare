@@ -19,10 +19,10 @@ This project based on React JS, all the functionality easy to use. For the exter
 ### Service Detail
     * Service Detail page (title, image, short description and detail)
 
-### # Appointment (private route)
+### Appointment (private route)
  * Appointment information
 
-### ### Contact
+### Contact
 * A simple contact form
 
 ### Login-Register
