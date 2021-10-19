@@ -78,6 +78,7 @@ const useFirebase = () => {
                 console.log(user)
                 setDisplayName();
                 setVerifyEmail();
+                window.location = '/'
             })
             .catch(error => {
                 setError("Email used, try with new email")
@@ -90,6 +91,7 @@ const useFirebase = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                window.location = '/'
             })
             .catch(error => {
                 setError('Wrong email or password')
