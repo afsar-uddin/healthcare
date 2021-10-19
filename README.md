@@ -1,6 +1,6 @@
 # South CTG Healthcare
 
-Project [Live](https://github.com/facebook/create-react-app) Link
+## Project [Live](https://south-ctg-healthcare.firebaseapp.com/) Link
 
 This project based on React JS, all the functionality easy to use. For the externel resources I used react-bootstrap, react-icon and and Firebase for Authentication purpose. 
 
