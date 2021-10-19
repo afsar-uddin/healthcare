@@ -13,12 +13,12 @@
 }
 
 .ctg-nav a:hover,
-.ctg-nav a.active,
-.ctg-nav  button {
+.ctg-nav a.active {
     background-color: #0b75bd;
 }
 .ctg-nav  button {
     border: none;
+    background-color: #FC9924;
 }
 .ctg-navbar.navbar-expand-lg .navbar-collapse {
     justify-content: end;
@@ -31,4 +31,9 @@ span.displayname {
 span.displayname span {
     color: #FC9924;
     font-weight: 500;
+}
+@media screen and (max-width: 360px) {
+    .ctg-navbar img {
+        max-width: 140px;
+    }
 }

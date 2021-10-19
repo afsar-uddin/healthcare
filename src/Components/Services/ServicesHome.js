@@ -18,7 +18,7 @@ const ServicesHome = () => {
                     <h3>Our popular services</h3>
                 </Col>
             </Row>
-            <Row md={3}>
+            <Row lg={3} md={2} xs={1}>
                 {
                     serviceshome.map(serviceHome => <ServicesHomeItem
                         key={serviceHome.id}

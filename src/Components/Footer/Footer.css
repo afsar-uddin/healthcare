@@ -33,3 +33,12 @@
 .social-nav a:hover {
     background-color: #004d81;
 }
+.footer p span {
+    color: #FC9924;
+    font-weight: 500;
+}
+@media screen and (max-width: 992px) {
+    .footer p span {
+        display: block;
+    }
+}

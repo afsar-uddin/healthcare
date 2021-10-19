@@ -1,0 +1,14 @@
+.appointment.card {
+    max-width: 450px;
+    margin: 70px auto;
+}
+.appointment.card div {
+    padding: 30px;
+}
+.appointment.card h2 {
+    text-align: center;
+    background-color: #0b75bd;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 10px;
+}

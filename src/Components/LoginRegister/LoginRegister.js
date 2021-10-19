@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../hooks/useAuth';
+import { FaGoogle } from 'react-icons/fa';
 import './LoginRegister.css'
 
 const LoginRegister = () => {
@@ -13,15 +14,14 @@ const LoginRegister = () => {
     const location = useLocation();
     const history = useHistory();
     const redirectURI = location.state?.from || '/';
-    console.log(location)
 
     const handleGoogleLogin = () => {
         googleLogin()
             .then(result => {
                 history.push(redirectURI);
             })
+            .catch(error => { })
     };
-
 
     return (
         <div className="login-register">
@@ -46,9 +46,7 @@ const LoginRegister = () => {
                         <div className="direct-login">
                             <p>You can also direct Login with</p>
                             <div>
-                                <button onClick={handleGoogleLogin}>Google</button>
-                                <button>Facebook</button>
-                                <button>Github</button>
+                                <button onClick={handleGoogleLogin}>Google <FaGoogle /></button>
                             </div>
                         </div>
                     </Col>

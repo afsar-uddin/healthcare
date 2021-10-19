@@ -10,7 +10,7 @@ const Footer = () => {
             <Container>
                 <Row md={2}>
                     <Col>
-                        <p>&copy; All right reserved South CTG Healthcare</p>
+                        <p>&copy; All right reserved <span>South CTG Healthcare</span></p>
                     </Col>
                     <Col className="social-nav">
                         <Link><FaFacebookSquare /></Link>

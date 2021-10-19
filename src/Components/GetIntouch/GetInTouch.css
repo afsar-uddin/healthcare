@@ -35,3 +35,11 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
 }
+@media screen and (max-width: 700px) {
+    .getintouch {
+        height: 250px;
+    }
+    .getintouch img {
+        height: 100%;;
+    }
+}

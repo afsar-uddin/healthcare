@@ -1,0 +1,16 @@
+.contact form {
+    padding: 30px;
+}
+.contact div {
+    background-color: #0b75bd;
+    color: #fff;
+}
+.contact div h2 {
+    max-width: 1140px;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 40px 10px;
+}
+.contact form input[type="submit"] {
+    margin-bottom: 0;
+}

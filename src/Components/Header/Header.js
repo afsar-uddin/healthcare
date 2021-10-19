@@ -17,7 +17,7 @@ const Header = () => {
                         <Nav className="ctg-nav">
                             <NavLink exact activeClassName="active" to="/">Home</NavLink>
                             <NavLink exact activeClassName="active" to="/appointment-info">Appointments</NavLink>
-                            <NavLink exact activeClassName="active" to="/Contact">Contact</NavLink>
+                            <NavLink exact activeClassName="active" to="/contact">Contact</NavLink>
                             {user?.email ? <span className="displayname">Welcome <span>{user?.displayName}</span></span> : ''}
                             {user?.email ? <button onClick={logOut}>Logout</button> : <NavLink exact activeClassName="active" to="/login-register">Login / Register</NavLink>}
                         </Nav>

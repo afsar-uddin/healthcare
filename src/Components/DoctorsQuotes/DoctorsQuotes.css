@@ -26,3 +26,9 @@
     background-color: #aad0e9;
     padding: 30px;
 }
+
+@media screen and (max-width: 360px) {
+    .doctors-quotes .carousel-item h3 {
+        font-size: 18px;
+    }
+}

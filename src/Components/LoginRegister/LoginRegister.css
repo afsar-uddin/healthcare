@@ -1,9 +1,12 @@
-.login-register {
+.login-register,
+.contact form {
     max-width: 400px;
     margin: 70px auto;
     border: 1px solid #ddd;
 }
-.login-register form input {
+.login-register form input,
+.contact form input,
+.contact form textarea {
     width: 100%;
     margin-bottom: 15px;
     border: 1px solid #ddd;
@@ -11,11 +14,14 @@
     padding: 10px;
     outline: none;
 }
-.login-register form input:focus-within {
+.login-register form input:focus-within,
+.contact form input:focus-within,
+.contact form textarea:focus-within  {
     border-color: #0b75bd;
 }
 .login-register form button,
-.direct-login div button {
+.direct-login div button,
+.contact form input[type="submit"] {
     border: 1px solid #ddd;
     font-size: 18px;
     font-weight: 500;
@@ -60,4 +66,12 @@
     height: 30px;
     width: 30px;
     margin-bottom: 0;
+}
+.direct-login div button svg {
+    margin-left: 15px;
+    position: relative;
+    top: -2px;
+}
+.direct-login p {
+    text-align: center;
 }
