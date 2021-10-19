@@ -34,9 +34,9 @@ const LoginRegister = () => {
                 <Row>
                     <Col>
                         <form>
-                            {!isLogin && <input type="text" onBlur={nameOnBlur} placeholder="Your name" />}
-                            <input type="email" onBlur={emailOnBlur} placeholder="Your email" />
-                            <input type="password" onBlur={passwordOnBlur} placeholder="Your password" />
+                            {!isLogin && <input type="text" onBlur={nameOnBlur} placeholder="Your name" required />}
+                            <input type="email" onBlur={emailOnBlur} placeholder="Your email" required />
+                            <input type="password" onBlur={passwordOnBlur} placeholder="Your password" required />
                             <span className="error">{error}</span>
                             <div className="check">
                                 <input type="checkbox" onChange={isLoggedInChecked} id="checkHere" /><small>Already registered?</small>
