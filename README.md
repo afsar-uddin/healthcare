@@ -16,15 +16,15 @@ This project based on React JS, all the functionality easy to use. For the exter
     * Get in touch with contact button to link with contact page
     * Simple footer with social media icon. 
 
-# Service Detail
+### Service Detail
     * Service Detail page (title, image, short description and detail)
 
-# Appointment (private route)
+### # Appointment (private route)
  * Appointment information
 
-# Contact
+### ### Contact
 * A simple contact form
 
-# Login-Register
+### Login-Register
  * Login and Register in one file with toggle implement
  * Google Signin directly
